@@ -15,7 +15,7 @@ Descrição dos arquivos:
 - superstore_model.pkl - Modelo de ML
 - trend_data.json - Dados de tendência necessários para o modelo de ML
 - superstore_tradutor.ipynb - Script Python de tradução para o português das categorias, subcategorias, etc.
-
+- superstore_sales_traduzido.csv - CSV dos dados traduzidos, gerados pelo script superstore_tradutor.ipynb
 
 Outras informações: 
 - Apesar da fonte de dados ser estática, o dashboard foi feito de forma que novos dados sejam automaticamente processados pelo PowerQuery sem necessitar de manutenção pelo usuário ou autor. As únicas exceções são traduções de novos dados (caso fosse criada uma nova categoria, por exemplo) e, apesar do modelo de ML ainda funcionar indefinidamente, seria recomendado o retreinamento a cada ano.
