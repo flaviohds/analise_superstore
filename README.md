@@ -5,8 +5,6 @@ Este repositório tem como função principal o armazenamento da fonte de dados,
 O dashboard permite visualizar o faturamento e número de produtos vendidos em qualquer período (fonte de dados abrange de 03/01/2015 a 30/12/2018) em diversas segmentações, através de filtros, mapas e gráficos interativos. 
 Também é possível verificar vendas futuras estimadas através dos modelos de previsão. Foram utilizados modelos estatísticos (decomposição de tendência por mínimos quadrados somada à mediana da sazonalidade nos 3 anos anteriores) e modelos de Machine Learning (conselho de KNN, ElasticNet e RandomForest). É possível acompanhar a comparação das métricas dos modelos de previsão em uma das páginas do dashboard.
 
-Apesar da fonte de dados ser estática, o dashboard foi feito de forma que novos dados sejam automaticamente processados pelo PowerQuery sem necessitar de manutenção pelo usuário ou autor. As únicas exceções são traduções de novos dados (caso fosse criada uma nova categoria, por exemplo) e, apesar do modelo de ML ainda funcionar indefinidamente, seria recomendado o retreinamento a cada ano.
-
 Descrição dos arquivos:
 - dashboard - Dashboard de vendas
 - superstore_sales.csv - Fonte de dados, retirado do [Kaggle](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
