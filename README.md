@@ -1,4 +1,7 @@
 # analise_superstore
+
+Clique [aqui](https://app.powerbi.com/view?r=eyJrIjoiOTU5MTM4ZmEtMzJlMS00NjEzLWI1ZDAtZTM1NDlhYTAzM2UxIiwidCI6IjRlZmI3ZDkxLTA1ZWUtNDI5MS1hZDZhLTQ3NmFlMGY0Y2IxMyJ9) para visualizar o dashboard no browser.
+
 Projeto de análise e visualização do dataset de vendas de uma loja que foca em material de escritório. Este projeto é a continuação de outro projeto que se encontra separado em outros dois repositórios de [análise exploratória e pré-processamento](https://github.com/flaviohds/MVP_Vendas_Analise) e [Machine Learning](https://github.com/flaviohds/MVP_Machine_Learning) (primeira parte).
 
 Este repositório tem como função principal o armazenamento da fonte de dados, scripts e produto final do projeto. O produto final é o dashboard de vendas feito em Power BI.
